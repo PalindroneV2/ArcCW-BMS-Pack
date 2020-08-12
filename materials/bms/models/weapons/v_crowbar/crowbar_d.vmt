@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "bms\models\weapons\v_crowbar/crowbar_d"
+	"$bumpmap" "bms\models\weapons\v_crowbar/crowbar_n"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.1 .1 .1]"
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" ".5"
+	"$phongfresnelranges"	"[1.5 4.5 8]"
+	"$phongalbedotint" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "25"
+	"$rimlightboost" "0.225"
+ }

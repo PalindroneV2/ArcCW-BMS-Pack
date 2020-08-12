@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$color2" "[.5 .5 .5]"
+	"$envmap" "models/hl1_fixedenv/v_crowbar/chrome"
+	"$envmapmode" 1
+
+	// requred to see specular on dx6+7 at all
+	"$multipass" 1
+}

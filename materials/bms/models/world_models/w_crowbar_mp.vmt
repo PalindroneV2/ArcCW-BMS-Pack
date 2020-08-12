@@ -1,0 +1,37 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "bms\models\weapons\v_crowbar\crowbar_world_d"
+	"$bumpmap" "bms\models\weapons\v_crowbar\crowbar_world_n"
+
+	"$selfillum" "1"
+	//"$selfillummask" "bms\models\v_glock/v_glock"
+	"$selfillumtint" "[1 1 1]"
+	"$selfIllumFresnel" "1"
+	"$selfIllumFresnelMinMaxExp" "[.25 5 11]"
+	
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[1 1 1]"
+	"$phongtint" "[1 1 1]"
+  	"$rimlight"               "1"
+	"$rimlightexponent"       "25"
+	"$rimlightboost"          "1"
+	
+	"$sheenPassEnabled" "1"
+	"$sheenmap" 		"cubemaps\cubemap_sheen001"
+	"$sheenmapmask" 		"Effects\AnimatedSheen\animatedsheen0"
+	"$sheenmaptint" 		"[ 1 1 1 ]"
+	"$sheenmapmaskframe" 	"0"
+	"$sheenindex" 		"0"
+	
+	"Proxies"
+	{
+		"AnimatedWeaponSheen"
+		{
+			"animatedtexturevar" 		"$sheenmapmask"
+			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
+			"animatedtextureframerate" 		"40"
+		}
+	}
+ }

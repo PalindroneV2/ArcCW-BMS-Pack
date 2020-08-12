@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$color2" "[.5 .35 0]"
+	"$envmap" "models/hl1_fixedenv/v_glock/bulletCHROME"
+	"$envmapmode" 1
+
+	// requred to see specular on dx6+7 at all
+	"$multipass" 1
+}

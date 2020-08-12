@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "bms\models\world_models/w_357"
+	"$bumpmap" "bms\models\world_models\w_357_nm"
+	
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.8 0.8 0.8]"
+	"$envmapsaturation" 1
+		
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[1 1 1]"
+	"$phongtint" "[1 1 1]"
+  	"$rimlight"               "1"
+	"$rimlightexponent"       "25"
+	"$rimlightboost"          "1"
+}
