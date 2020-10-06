@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "bms\models\weapons\shells\9mm_brass_shell"
+	
+	"$phong" "1"
+	"$phongexponent" "40"
+	"$phongboost" "10"
+//	"$phongfresnelranges"	"[1 1 1]"
+	"$phongalbedotint" "1"
+	
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
+	
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "150"
+	"$rimlightboost" "2"
+}

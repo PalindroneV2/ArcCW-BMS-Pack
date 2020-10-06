@@ -1,0 +1,25 @@
+//"EDITOR_SHADER"
+"VertexLitGeneric"
+{
+	"$SHADERNAME" "model_standard"
+
+	"$baseTexture" "bms\models\weapons\v_shotgun/v_shotgun_01"
+	"$bumpmap" "bms\models\weapons\v_shotgun/v_shotgun_normal"
+	"$nocull" "1"
+
+//metal
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.50 .50 .50]"
+
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "7"
+	"$phongfresnelranges"	"[0.4 0.9 2.6]"
+	"$phongalbedotint" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "35"
+	"$rimlightboost" "0.125"
+}
