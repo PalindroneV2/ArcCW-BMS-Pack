@@ -120,8 +120,8 @@ SWEP.CaseBones = {
 
 
 SWEP.IronSightStruct = {
-    Pos = Vector(-2.814, 1.004, 1.406),
-    Ang = Angle(0.703, 0, 0),
+    Pos = Vector(-2.78, -2, 1.5),
+    Ang = Angle(0.75, 0, 1),
     Magnification = 1.1,
     SwitchToSound = "", -- sound that plays when switching to this sight
 }
