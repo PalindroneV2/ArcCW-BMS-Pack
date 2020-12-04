@@ -77,9 +77,7 @@ SWEP.MagID = "ragingbull" -- the magazine pool this gun draws from
 SWEP.ShootVol = 100 -- volume of shoot sound
 SWEP.ShootPitch = 95 -- pitch of shoot sound
 
-SWEP.ShootSound = "ArcCW_BMS.Python_Fire"
-SWEP.ShootSoundSilenced = "weapons/arccw/usp/usp_01.wav"
-SWEP.DistantShootSound = "weapons/arccw/revolver/revolver-1_distant.wav"
+SWEP.ShootSound = "ArcCW_HL1.357_Shot"
 
 SWEP.MuzzleEffect = "muzzleflash_pistol_deagle"
 
